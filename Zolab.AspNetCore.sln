@@ -10,12 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zolab.AspNetCore.Authentication.OAuth", "Authentication\OAuth\Zolab.AspNetCore.Authentication.OAuth.csproj", "{6193EDBF-EFC2-4D10-A565-506F383F25B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zolab.AspNetCore.Authentication.OAuth.Tests", "Zolab.AspNetCore.Authentication.OAuth.Tests\Zolab.AspNetCore.Authentication.OAuth.Tests.csproj", "{D00600D7-BC32-44F2-9529-833A1F3D9D51}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eng", "eng", "{61453271-854C-4687-A03D-5A3711F15B2C}"
 	ProjectSection(SolutionItems) = preProject
 		SharedFramework.External.props = SharedFramework.External.props
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zolab.AspNetCore.Authentication.OAuth.Tests", "Tests\Zolab.AspNetCore.Authentication.OAuth.Tests.csproj", "{F426723D-8577-4815-A5A8-6D1FF21097B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F426723D-8577-4815-A5A8-6D1FF21097B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F426723D-8577-4815-A5A8-6D1FF21097B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F426723D-8577-4815-A5A8-6D1FF21097B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F426723D-8577-4815-A5A8-6D1FF21097B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

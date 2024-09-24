@@ -1,13 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+<PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<VersionPrefix>0.0.1</VersionPrefix>
+	<GenerateAppxPackageOnBuild>True</GenerateAppxPackageOnBuild>
+	<PackageId>Zolab.AspNetCore.Authentication.OAuth</PackageId>
+	<Authors>zorimo</Authors>
+	<Description>Provides OAuth authentication utilities for ASP.NET Core.</Description>
+	<PackageLicenseExpression>LICENSE</PackageLicenseExpression>
+	<PackageTags>ASP.NET Core, OAuth, Authentication</PackageTags>
+	<RepositoryUrl>https://github.com/z0rimo/AspNetCore</RepositoryUrl>
+</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
-  </ItemGroup>
+<ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+</ItemGroup>
 
 </Project>
