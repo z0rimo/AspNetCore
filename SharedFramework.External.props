@@ -1,0 +1,18 @@
+<!--
+
+  This lists all assemblies which are part of the Microsoft.AspNetCore.App shared framework
+  and are built as packages in another repo.
+
+-->
+<Project>
+  <Import Project="Versions.props" />
+
+  <ItemGroup>
+    <!-- Dependencies from dotnet/runtime -->
+    <PackageVersion Include="coverlet.collector"                                           Version="$(CoverletCollectorVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect"            Version="$(MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion)" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk"                                       Version="$(MicrosoftNETTestSdkVersion)" />
+    <PackageVersion Include="xunit"                                                        Version="$(XunitVersion)" />
+    <PackageVersion Include="xunit.runner.visualstudio"                                    Version="$(XunitRunnerVisualstudioVersion)" />
+  </ItemGroup>
+</Project>

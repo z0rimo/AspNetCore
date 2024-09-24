@@ -1,0 +1,35 @@
+<Project>
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Version settings">
+    <DefaultNetCoreTargetFramework>net8.0</DefaultNetCoreTargetFramework>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Manual">
+    <CoverletCollectorVersion>6.0.2</CoverletCollectorVersion>
+    <MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>8.0.8</MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>
+    <MicrosoftNETTestSdkVersion>17.11.1</MicrosoftNETTestSdkVersion>
+    <XunitVersion>2.9.1</XunitVersion>
+    <XunitRunnerVisualstudioVersion>2.8.2</XunitRunnerVisualstudioVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Dependencies from dotnet/runtime -->
+    <PackageVersion Include="coverlet.collector"                                           Version="$(CoverletCollectorVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect"            Version="$(MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion)" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk"                                       Version="$(MicrosoftNETTestSdkVersion)" />
+    <PackageVersion Include="xunit"                                                        Version="$(XunitVersion)" />
+    <PackageVersion Include="xunit.runner.visualstudio"                                    Version="$(XunitRunnerVisualstudioVersion)" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0C8D348-2F61-4EDF-870E-56D049E4BB0A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zolab.AspNetCore.Authentication.OAuth", "Authentication\OAuth\Zolab.AspNetCore.Authentication.OAuth.csproj", "{6193EDBF-EFC2-4D10-A565-506F383F25B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zolab.AspNetCore.Authentication.OAuth.Tests", "Zolab.AspNetCore.Authentication.OAuth.Tests\Zolab.AspNetCore.Authentication.OAuth.Tests.csproj", "{D00600D7-BC32-44F2-9529-833A1F3D9D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eng", "eng", "{61453271-854C-4687-A03D-5A3711F15B2C}"
+	ProjectSection(SolutionItems) = preProject
+		SharedFramework.External.props = SharedFramework.External.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6193EDBF-EFC2-4D10-A565-506F383F25B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00600D7-BC32-44F2-9529-833A1F3D9D51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61453271-854C-4687-A03D-5A3711F15B2C} = {C0C8D348-2F61-4EDF-870E-56D049E4BB0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D82A6873-A278-4C9B-AF5C-D3E96EA55C68}
+	EndGlobalSection
+EndGlobal
