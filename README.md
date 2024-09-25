@@ -6,6 +6,7 @@ The `AspNetCore` branch is structured to offer a base authentication package and
 
 ## Packages
 ### 1. Zolab.AspNetCore.Authentication.OAuth
+![NuGet version](https://img.shields.io/nuget/v/Zolab.AspNetCore.Authentication.OAuth)
 - A base package providing core OAuth functionalities.
 - **Purpose**: Simplifies the integration of OAuth-based authentication in ASP.NET Core applications.
 - **Extensions**: This package can be extended by additional provider-specific packages, such as `kakao` and `naver`.
