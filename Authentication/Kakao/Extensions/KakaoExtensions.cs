@@ -24,7 +24,7 @@ public static class KakaoExtensions
     /// <param name="authenticationScheme">The custom authentication scheme to use.</param>
     /// <returns>A reference to the <paramref name="builder"/> after the operation has completed.</returns>
     public static AuthenticationBuilder AddKakao(this AuthenticationBuilder builder, string authenticationScheme)
-    => builder.AddKakao(authenticationScheme, KakaoDefaults.DisplayName, _ => { });
+        => builder.AddKakao(authenticationScheme, KakaoDefaults.DisplayName, _ => { });
 
     /// <summary>
     /// Adds Kakao OAuth-based authentication to the specified <see cref="AuthenticationBuilder"/> with a configuration delegate.
