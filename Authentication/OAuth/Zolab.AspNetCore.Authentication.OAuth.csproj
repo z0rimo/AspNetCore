@@ -9,7 +9,7 @@
 	<PackageId>Zolab.AspNetCore.Authentication.OAuth</PackageId>
 	<Authors>zorimo</Authors>
 	<Description>Provides OAuth authentication utilities for ASP.NET Core.</Description>
-	<PackageLicenseExpression>LICENSE</PackageLicenseExpression>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<PackageTags>ASP.NET Core, OAuth, Authentication</PackageTags>
 	<RepositoryUrl>https://github.com/z0rimo/AspNetCore</RepositoryUrl>
 </PropertyGroup>
