@@ -28,5 +28,5 @@ public static class KakaoDefaults
     /// <summary>
     /// The endpoint used to retrieve user information after authentication.
     /// </summary>
-    public static readonly string UserInfomationEndPoint = "https://kapi.kakao.com/v2/user/me";
+    public static readonly string UserInformationEndPoint = "https://kapi.kakao.com/v2/user/me";
 }

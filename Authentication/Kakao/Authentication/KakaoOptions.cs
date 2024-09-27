@@ -26,7 +26,7 @@ public class KakaoOptions : OAuthOptions
         TokenEndpoint = KakaoDefaults.TokenEndPoint;
 
         // Sets the URL used to retrieve the authenticated user's information from Kakao.
-        UserInformationEndpoint = KakaoDefaults.UserInfomationEndPoint;
+        UserInformationEndpoint = KakaoDefaults.UserInformationEndPoint;
 
         // Maps the "id" field from the Kakao user information response to the NameIdentifier claim.
         ClaimActions.MapJsonKey(ClaimTypes.NameIdentifier, "id");

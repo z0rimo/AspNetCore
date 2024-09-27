@@ -20,7 +20,6 @@ public class KakaoChallengeProperties : OAuthChallengeProperties
     /// <summary>
     /// Initializes a new instance of <see cref="KakaoChallengeProperties"/>.
     /// </summary>
-    /// <inheritdoc />
     public KakaoChallengeProperties(IDictionary<string, string?> items)
         : base(items)
     { }
@@ -28,7 +27,6 @@ public class KakaoChallengeProperties : OAuthChallengeProperties
     /// <summary>
     /// Initializes a new instance of <see cref="KakaoChallengeProperties"/>.
     /// </summary>
-    /// <inheritdoc />
     public KakaoChallengeProperties(IDictionary<string, string?> items, IDictionary<string, object?> parameters)
         : base(items, parameters)
     { }
